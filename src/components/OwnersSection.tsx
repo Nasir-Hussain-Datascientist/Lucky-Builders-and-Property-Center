@@ -9,9 +9,8 @@ export function OwnersSection() {
     {
       name: t('experts.names.owner1'),
       title: t('experts.role1'),
-      phone: "0340-1565551",
-      phone2: "0334-5344087",
-      whatsapp: "923345344087",
+      phone: "0326-5707981",
+      whatsapp: "923265707981",
     }
   ];
 
@@ -45,10 +44,6 @@ export function OwnersSection() {
                     <div className="flex items-center gap-2">
                       <Phone size={14} className="text-slate-400" />
                       <span className="text-base font-bold text-slate-700 dir-ltr">{owner.phone}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                       <Phone size={14} className="text-slate-400" />
-                       <span className="text-base font-bold text-slate-700 dir-ltr">{owner.phone2}</span>
                     </div>
                   </div>
                   

@@ -51,7 +51,7 @@ export function Footer() {
       </div>
       
       <div className="max-w-7xl mx-auto pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm opacity-60">
-        <p>&copy; {new Date().getFullYear()} Pak Property Connect. {t('footer.rights')}</p>
+        <p>&copy; {new Date().getFullYear()} Lucky Builders & Property. {t('footer.rights')}</p>
         <p className={language === 'ur' ? 'font-urdu' : ''}>{t('footer.designed')}</p>
       </div>
     </footer>

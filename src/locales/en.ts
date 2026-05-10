@@ -63,6 +63,6 @@ export const en = {
     social: "Social Media",
     socialDesc: "Connect with us on social media for the latest updates.",
     rights: "All rights reserved.",
-    designed: "Designed with AI Studio"
+    designed: "Developed by Nasir Hussain (0326-5707981)"
   }
 };

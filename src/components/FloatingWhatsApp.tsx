@@ -13,7 +13,7 @@ export function FloatingWhatsApp() {
       className={`fixed bottom-6 ${language === 'ur' ? 'left-6' : 'right-6'} z-50 bg-white p-1 rounded-full shadow-2xl border border-slate-100 group`}
     >
       <a
-        href="https://wa.me/923345344087"
+        href="https://wa.me/923265707981"
         target="_blank"
         rel="noopener noreferrer"
         className="h-16 w-16 bg-[#25D366] text-white rounded-full flex items-center justify-center hover:bg-[#128C7E] transition-all shadow-lg"

@@ -6,8 +6,7 @@ export function ContactSection() {
   const { t, language } = useLanguage();
 
   const numbers = [
-    { display: "0340-1565551", link: "923401565551" },
-    { display: "0334-5344087", link: "923345344087" }
+    { display: "0326-5707981", link: "923265707981" },
   ];
 
   return (
