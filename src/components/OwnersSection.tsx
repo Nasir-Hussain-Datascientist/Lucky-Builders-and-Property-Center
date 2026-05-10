@@ -9,8 +9,9 @@ export function OwnersSection() {
     {
       name: t('experts.names.owner1'),
       title: t('experts.role1'),
-      phone: "0326-5707981",
-      whatsapp: "923265707981",
+      phone: "0340-1565551",
+      phone2: "0334-5344087",
+      whatsapp: "923401565551",
     }
   ];
 
@@ -42,9 +43,15 @@ export function OwnersSection() {
                 <div className={`flex flex-col sm:flex-row items-center gap-4 ${language === 'ur' ? 'sm:justify-start' : 'sm:justify-start'}`}>
                   <div className="flex flex-col items-center sm:items-start gap-1">
                     <div className="flex items-center gap-2">
-                      <Phone size={14} className="text-slate-400" />
-                      <span className="text-base font-bold text-slate-700 dir-ltr">{owner.phone}</span>
+                       <Phone size={14} className="text-slate-400" />
+                       <span className="text-base font-bold text-slate-700 dir-ltr">{owner.phone}</span>
                     </div>
+                    {owner.phone2 && (
+                       <div className="flex items-center gap-2 mt-1">
+                          <Phone size={14} className="text-slate-400" />
+                          <span className="text-base font-bold text-slate-700 dir-ltr">{owner.phone2}</span>
+                       </div>
+                    )}
                   </div>
                   
                   <div className="w-px h-10 bg-slate-200 hidden sm:block mx-4"></div>
