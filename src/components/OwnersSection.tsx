@@ -9,9 +9,9 @@ export function OwnersSection() {
     {
       name: t('experts.names.owner1'),
       title: t('experts.role1'),
-      phone: "0340-1565551",
-      phone2: "0334-5344087",
-      whatsapp: "923401565551",
+      phone: "0334-5344087",
+      phone2: "0340-1565551",
+      whatsapp: "923345344087",
     }
   ];
 

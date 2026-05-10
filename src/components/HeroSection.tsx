@@ -91,7 +91,7 @@ export function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4"
         >
           <a
-            href="https://wa.me/923401565551"
+            href="https://wa.me/923345344087"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 sm:flex-none flex items-center justify-center gap-3 bg-accent text-primary hover:bg-accent-light px-8 py-4 rounded-xl font-bold transition-all shadow-xl shadow-accent/20 hover:-translate-y-1"
@@ -101,7 +101,7 @@ export function HeroSection() {
           </a>
           
           <a
-            href="tel:+923401565551"
+            href="tel:+923345344087"
             className="flex-1 sm:flex-none flex items-center justify-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/30 text-white hover:bg-white/20 px-8 py-4 rounded-xl font-bold transition-all hover:-translate-y-1"
           >
             <PhoneCall size={22} className={language === 'ur' ? 'ml-1' : 'mr-1'} />
