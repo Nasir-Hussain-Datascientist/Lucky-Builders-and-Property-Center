@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0a192f; /* Deep Navy */
+  --color-primary-light: #112240; /* Slightly lighter navy */
+  --color-accent: #d4af37; /* Elegant Gold */
+  --color-accent-light: #e5c158;
+  
+  --font-urdu: 'Noto Sans Arabic', sans-serif;
+  --font-urdu-nastaliq: 'Noto Nastaliq Urdu', serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+/* Direction Utilities */
+.dir-ltr { direction: ltr; }
+.dir-rtl { direction: rtl; }
+
+/* Custom scrollbar for an elegant feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-light);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
